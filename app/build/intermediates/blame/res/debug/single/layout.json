@@ -124,12 +124,12 @@
         "source": "C:\\Users\\David\\AndroidStudioProjects\\ClassEx2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "C:\\Users\\David\\AndroidStudioProjects\\ClassEx2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\David\\AndroidStudioProjects\\ClassEx2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
         "merged": "C:\\Users\\David\\AndroidStudioProjects\\ClassEx2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "C:\\Users\\David\\AndroidStudioProjects\\ClassEx2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\David\\AndroidStudioProjects\\ClassEx2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\David\\AndroidStudioProjects\\ClassEx2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "C:\\Users\\David\\AndroidStudioProjects\\ClassEx2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",

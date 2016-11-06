@@ -10,8 +10,34 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.david.classex2.MainActivity">
 
-    <TextView
+    <Button
+        android:text="Shoot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_below="@+id/switch1"
+        android:layout_alignLeft="@+id/switch1"
+        android:layout_alignStart="@+id/switch1"
+        android:layout_marginTop="121dp"
+        android:id="@+id/button"
+        android:onClick="onBClick" />
+
+    <Switch
+        android:text="Safty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="82dp"
+        android:gravity="center"
+        android:id="@+id/editText"
+        android:text="@string/emptyString" />
 </RelativeLayout>

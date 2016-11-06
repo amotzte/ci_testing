@@ -10,13 +10,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.david.classex2.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="400dp"
-        android:layout_marginLeft="180dp"
-        android:id="@+id/l1" />
-
     <Button
         android:text="Shoot"
         android:layout_width="wrap_content"
@@ -25,7 +18,8 @@
         android:layout_alignLeft="@+id/switch1"
         android:layout_alignStart="@+id/switch1"
         android:layout_marginTop="121dp"
-        android:id="@+id/button" />
+        android:id="@+id/button"
+        android:onClick="onBClick" />
 
     <Switch
         android:text="Safty"
@@ -34,4 +28,16 @@
         android:id="@+id/switch1"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="82dp"
+        android:gravity="center"
+        android:id="@+id/editText"
+        android:text="@string/emptyString" />
 </RelativeLayout>
